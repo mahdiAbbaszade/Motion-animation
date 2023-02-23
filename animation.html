@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slid</title>
+	<style>
+		*{margin:0; padding:0;}
+		body{background:repeating-linear-gradient(90deg , #009700 0px,#009700 6px , #00a900 6px , #00a900 12px);}
+		#father{width:980px;height:500px;border:2px solid white;margin:10px auto 10px auto;position:relative;}
+		.ball{width:90px;height:90px;border-radius:50%;position:absolute;}
+		.ball1{background-image:url(fot.jpg);top:10px;left:10px;transition:all 3s;}
+		#father:hover .ball1{top:390px;left:600px;} 
+		.ball2{background-image:url(val.jpg);top:120px;left:10px;transition:all 2s;}
+		#father:hover .ball2{top:290px;left:800px;right:500px}
+		.ball3{background-image:url(kodak.jpg);top:10px;left:120px;transition:all 5s;}
+		#father:hover .ball3{top:320px;left:800px;}
+	</style>
+</head>
+<body>
+	<div id="father">
+		<div class="ball ball1"></div>
+		<div class="ball ball2"></div>
+		<div class="ball ball3"></div>
+	</div>
+</body>
+</html>
